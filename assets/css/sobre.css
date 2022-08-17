@@ -1,0 +1,15 @@
+.sobre{
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo{
+    color: #8D0606;
+    font-size: 51px;
+    font-family: 'pacifico';
+}
+
+.sobre__texto{
+    color: #8C8888;
+    font-size: 28px;
+}

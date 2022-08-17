@@ -1,0 +1,40 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.menu-lista{
+    display: flex;
+}
+
+.menu-item{
+    margin: 0 0 0 1em;
+    list-style-type: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #808080;
+    text-transform: lowercase;
+}
+
+.menu-link.ativo{
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 764px) {
+    .cabecalho__logo{
+        display: none;
+    }
+
+    .cabecalho__menu{
+        margin: 0 auto;
+    }
+}
